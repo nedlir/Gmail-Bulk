@@ -1,0 +1,28 @@
+input[type="text"],
+input[type="email"],
+input[type="file"],
+textarea {
+  width: calc(100% - 24px);
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid rgba(88, 101, 242, 0.5);
+  border-radius: 6px;
+  background-color: rgba(47, 49, 54, 0.7);
+  color: #dcddde;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="file"]:focus,
+textarea:focus {
+  border-color: #7289da;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(114, 137, 218, 0.3);
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
